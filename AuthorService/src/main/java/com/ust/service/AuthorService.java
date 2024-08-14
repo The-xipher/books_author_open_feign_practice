@@ -10,5 +10,5 @@ public interface AuthorService {
     List<Author> getALlAuthors();
     public Author getAuthorById(String id);
     void deleteAuthorById(String id);
-    Author updateAuthorById(String id);
+    Author updateAuthorById(String id,Author author);
 }

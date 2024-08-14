@@ -10,7 +10,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ust</groupId>
-    <artifactId>AuthorService</artifactId>
+    <artifactId>RegistryService</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <description>Demo project for Spring Boot</description>
@@ -79,7 +79,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
 
     </dependencies>

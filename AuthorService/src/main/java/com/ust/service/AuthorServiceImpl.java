@@ -36,8 +36,12 @@ public class AuthorServiceImpl implements AuthorService{
     }
 
     @Override
-    public Author updateAuthorById(String id) {
-        Author author=getAuthorById(id);
-        return repository.save(author);
+    public Author updateAuthorById(String id, Author author) {
+        Author authors=getAuthorById(id);
+        authors.setFullName(author.getFullName());
+        repository.save(authors);
+        return authors;
     }
+
+
 }

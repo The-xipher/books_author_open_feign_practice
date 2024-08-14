@@ -1,17 +1,17 @@
 spring:
   cloud:
-   config:
-     enabled: false
+    config:
+      enabled: false
   application:
-    name: author-service
+    name: book-service
   data:
     mongodb:
       uri: mongodb://localhost:27017/author-service
-      database: author_service
+      database: book_service
       username:
       password:
 server:
-  port: 8100
+  port: 8200
 logging:
   level:
     #    root: WARN
