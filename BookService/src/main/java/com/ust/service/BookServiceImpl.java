@@ -2,19 +2,23 @@ package com.ust.service;
 
 import com.ust.domain.Book;
 
+import com.ust.dto.Author;
+import com.ust.feignclients.AuthorServiceClient;
 import com.ust.repository.BookRepository;
-
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class BookServiceImpl implements BookService{
 
     private final BookRepository repository;
+    private final AuthorServiceClient authorServiceClient;
 
 
-    public BookServiceImpl(BookRepository repository) {
+    public BookServiceImpl(BookRepository repository, AuthorServiceClient authorServiceClient) {
         this.repository = repository;
 
+        this.authorServiceClient = authorServiceClient;
     }
 
     @Override
@@ -48,4 +52,10 @@ public class BookServiceImpl implements BookService{
         repository.save(books);
         return books;
     }
+
+    public Author getAuthorById(String id){
+        return authorServiceClient.getAuthorById(id);
+
+    }
+
 }
