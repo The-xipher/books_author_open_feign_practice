@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9fa5198c-856b-4494-aa35-fb704ae98a0b" name="Changes" comment="With Body">
+      <change afterPath="$PROJECT_DIR$/AuthorService/src/main/java/com/ust/config/SpringDocConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthorService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AuthorService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthorService/src/main/java/com/ust/controller/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthorService/src/main/java/com/ust/controller/AuthorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthorService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/AuthorService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookService/src/main/java/com/ust/feignclients/AuthorServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookService/src/main/java/com/ust/feignclients/AuthorServiceClient.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;The-xipher&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/The-xipher/books_author_open_feign_practice.git&quot;,
+    &quot;accountId&quot;: &quot;9cb78e21-e982-4e92-8973-b32645f29d6a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2kbDua4x7RNV8dqb1tGOom3Ai7r" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.AuthorServiceApplication.executor": "Run",
+    "Application.BookServiceApplication.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.RegistryServiceApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Work-Space/books_author_open_feign_practice",
+    "onboarding.tips.debug.path": "C:/Work-Space/books_author_open_feign_practice/RegistryService/src/main/java/com/ust/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ust.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AuthorServiceApplication">
+    <configuration name="AuthorServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ust.AuthorServiceApplication" />
+      <module name="AuthorService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ust.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ust.BookServiceApplication" />
+      <module name="BookService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ust.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ust.RegistryServiceApplication" />
+      <module name="RegistryService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ust.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AuthorServiceApplication" />
+        <item itemvalue="Application.BookServiceApplication" />
+        <item itemvalue="Application.RegistryServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fa5198c-856b-4494-aa35-fb704ae98a0b" name="Changes" comment="" />
+      <created>1723543605542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723543605542</updated>
+    </task>
+    <task id="LOCAL-00001" summary="All subs created">
+      <option name="closed" value="true" />
+      <created>1723606437329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723606437329</updated>
+    </task>
+    <task id="LOCAL-00002" summary="AuthorService completed">
+      <option name="closed" value="true" />
+      <created>1723615077601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723615077601</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Eureka server Completed with Registry Service">
+      <option name="closed" value="true" />
+      <created>1723619738015</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723619738015</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Completed but no body">
+      <option name="closed" value="true" />
+      <created>1723627034731</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723627034731</updated>
+    </task>
+    <task id="LOCAL-00005" summary="With Body">
+      <option name="closed" value="true" />
+      <created>1723628458478</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723628458478</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="All subs created" />
+    <MESSAGE value="AuthorService completed" />
+    <MESSAGE value="Eureka server Completed with Registry Service" />
+    <MESSAGE value="Completed but no body" />
+    <MESSAGE value="With Body" />
+    <option name="LAST_COMMIT_MESSAGE" value="With Body" />
+  </component>
+</project>
