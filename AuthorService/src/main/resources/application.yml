@@ -31,3 +31,33 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+
+
+springdoc:
+  show-actuator: true
+  api-docs:
+    path: /v1/api-docs
+  swagger-ui:
+    path: swagger-ui.html
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health,info,openapi,swagger-ui" # http://localhost:8100/actuator/
+  server:
+     port: 8101
+
+
+  health:
+    mongo:
+     ping:
+       enabled: true?
+
+
+
+  endpoint:
+      health:
+         show-details: always
