@@ -11,6 +11,7 @@
         <module name="BookService" />
         <module name="ConfigService" />
         <module name="RegistryService" />
+        <module name="GatewayService" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,6 +20,7 @@
       <module name="AuthorService" options="-parameters" />
       <module name="BookService" options="-parameters" />
       <module name="ConfigService" options="-parameters" />
+      <module name="GatewayService" options="-parameters" />
       <module name="RegistryService" options="-parameters" />
     </option>
   </component>

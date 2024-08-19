@@ -7,7 +7,8 @@ spring:
     config:
       server:
         git:
-          uri: http://github.com/The-xipher/books_author_microservices-config.git
+          skip-ssl-validation: true
+          uri: https://github.com/The-xipher/books_author_microservices-config.git
           clone-on-start: true
 logging:
   pattern:

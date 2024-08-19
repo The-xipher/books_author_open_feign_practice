@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fa5198c-856b-4494-aa35-fb704ae98a0b" name="Changes" comment="with cloud config" />
+    <list default="true" id="9fa5198c-856b-4494-aa35-fb704ae98a0b" name="Changes" comment="with cloud config">
+      <change afterPath="$PROJECT_DIR$/GatewayService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GatewayService/src/main/java/com/ust/GatewayServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GatewayService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigService/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigService/target/classes/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +81,7 @@
       <recent name="com.ust.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BookServiceApplication">
+  <component name="RunManager" selected="Application.AuthorServiceApplication">
     <configuration name="AuthorServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ust.AuthorServiceApplication" />
       <module name="AuthorService" />
@@ -113,6 +121,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ust.GatewayServiceApplication" />
+      <module name="GatewayService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ust.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegistryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ust.RegistryServiceApplication" />
       <module name="RegistryService" />
@@ -128,8 +149,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BookServiceApplication" />
         <item itemvalue="Application.AuthorServiceApplication" />
+        <item itemvalue="Application.BookServiceApplication" />
+        <item itemvalue="Application.GatewayServiceApplication" />
         <item itemvalue="Application.RegistryServiceApplication" />
         <item itemvalue="Application.ConfigService" />
       </list>
@@ -216,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724049840798</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="with cloud config">
+      <option name="closed" value="true" />
+      <created>1724049894415</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724049894415</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
