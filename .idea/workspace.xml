@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fa5198c-856b-4494-aa35-fb704ae98a0b" name="Changes" comment="with Swagger">
-      <change afterPath="$PROJECT_DIR$/ConfigService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigService/src/main/java/com/ust/ConfigService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthorService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/AuthorService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/BookService/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="9fa5198c-856b-4494-aa35-fb704ae98a0b" name="Changes" comment="with cloud config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +56,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.AuthorServiceApplication.executor": "Run",
     "Application.BookServiceApplication.executor": "Run",
+    "Application.ConfigService.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.RegistryServiceApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -209,7 +200,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723778054675</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="with cloud config">
+      <option name="closed" value="true" />
+      <created>1724049755963</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724049755963</updated>
+    </task>
+    <task id="LOCAL-00009" summary="with cloud config">
+      <option name="closed" value="true" />
+      <created>1724049840798</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724049840798</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +238,7 @@
     <MESSAGE value="Completed but no body" />
     <MESSAGE value="With Body" />
     <MESSAGE value="with Swagger" />
-    <option name="LAST_COMMIT_MESSAGE" value="with Swagger" />
+    <MESSAGE value="with cloud config" />
+    <option name="LAST_COMMIT_MESSAGE" value="with cloud config" />
   </component>
 </project>
