@@ -1,0 +1,14 @@
+server:
+  port: 8888
+spring:
+  #  application:
+  #    name: ConfigService
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://github.com/The-xipher/books_author_microservices-config.git
+          clone-on-start: true
+logging:
+  pattern:
+    console: "%msg%n"
